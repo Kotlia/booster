@@ -1,0 +1,27 @@
+{
+  "name": "booster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kotlia/booster.git"
+  },
+  "author": "Kotlia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kotlia/booster/issues"
+  },
+  "homepage": "https://github.com/Kotlia/booster#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "forever": "^3.0.4",
+    "ora": "^5.1.0",
+    "readline-promise": "^1.0.5"
+  }
+}
